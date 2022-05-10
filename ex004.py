@@ -1,0 +1,10 @@
+n=input("Digite alguma coisa: ")
+print("é numerico?",n.isnumeric())
+print("é alfanumérico?",n.isalnum())
+print("é alfabético?",n.isalpha())
+print("é minúsculo?",n.islower())
+print("pode imprimir?",n.isprintable())
+print("é maiúsculo?",n.isupper())
+#print(n.is)
+print(type(n))
+
