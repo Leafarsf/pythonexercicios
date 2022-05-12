@@ -4,6 +4,7 @@ n = 6
 for i in range(0,n):
     ins = int(input("Insira um número: "))
     lista.append(ins)
+print(lista)
 for i in lista:
     if i % 2 == 0:
         soma = soma + i
