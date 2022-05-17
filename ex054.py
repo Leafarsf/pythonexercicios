@@ -1,3 +1,4 @@
+#também podemos fazer utilizando um contador, mas optei por listas para prática.
 ano = []
 maioridade = []
 minoridade = []
