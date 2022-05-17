@@ -1,4 +1,5 @@
 #também podemos fazer utilizando um contador, mas optei por listas para prática.
+from datetime import date
 ano = []
 maioridade = []
 minoridade = []
@@ -7,7 +8,7 @@ for i in range(1,8):
     ano.append(n)
 ano = [int(i) for i in ano]
 for i in ano:
-    if 2022 - i >= 18:
+    if date.today().year - i >= 18:
         maioridade.append(i)
     else:
         minoridade.append(i)
