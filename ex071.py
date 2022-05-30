@@ -20,5 +20,7 @@ while True:
         total_cedulas = 0
         if total == 0:
             break
-
+print("VOLTE SEMPRE AO CAIXA ELETRÔNICO")
+print("TENHA UM BOM DIA!")
+print("-"*20)
 
