@@ -38,7 +38,7 @@ elif escolha == '2':
     for time in sorted(times):
         print(time)
 elif escolha == '3':
-    print(f'O time Athlético - PR está na posição {times.index("Athlético - PR")} da tupla.')
+    print(f'O time Athlético - PR está na posição {times.index("Athlético - PR") + 1} da tupla.')
 elif escolha == '4':
     cont = 20
     for time in times[16:21]:
