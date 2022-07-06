@@ -1,4 +1,8 @@
 def calculaFatorial(num, show=False):
+    '''Calcula o fatorial de um número definido.
+    :param num: O número a ser calculado.
+    :param show: Se True, mostra o cálculo.
+    :return: O fatorial do número.'''
     fatorial = 1
     for i in range(num, 0, -1):
         if show:
