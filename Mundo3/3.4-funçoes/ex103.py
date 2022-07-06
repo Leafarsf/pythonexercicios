@@ -7,11 +7,13 @@ def fichaJogador(nome='<desconhecido>', gols=0):
     '''
     if nome == "":
         nome = '<desconhecido>'
-    if gols == "":
+    if gols.isnumeric():
+        gols = gols
+    else:
         gols = 0
     return f'O jogador {nome} fez {gols} gols.' 
 
 print('-' * 20)
 nome_jogador = str(input('Nome do jogador: '))
-gols_jogador = str(input('Número de gols: '))
+gols_jogador = input('Número de gols: ')
 print(fichaJogador(nome_jogador, gols_jogador))
