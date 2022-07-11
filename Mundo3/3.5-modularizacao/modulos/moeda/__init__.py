@@ -8,7 +8,7 @@ def dobro(num, formatacao=False):
 
 def metade(num, formatacao=False):
     if formatacao == True:
-        return moeda(num / 2)
+        return moeda(num / 2).replace('.', ',')
     else:
         return num / 2
 
@@ -28,7 +28,7 @@ def diminuir(num, porcentagem, formatacao=False):
 
 
 def moeda(num):
-    return f'R${num:.2f}'
+    return f'R${num:.2f}'.replace('.', ',')
 
 
 def resumo(preco, aumento, reducao):
