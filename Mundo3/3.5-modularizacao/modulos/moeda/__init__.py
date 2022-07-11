@@ -33,7 +33,7 @@ def moeda(num):
 
 def resumo(preco, aumento, reducao):
     print("-" * 30)
-    print("RESUMO DO VALOR")
+    print("RESUMO DO VALOR".center(30))
     print("-" * 30)
     print(f"Preço analisado: \t{moeda(preco)}")
     print(f'A metade de R${preco}:  \t{metade(preco, True)}')
